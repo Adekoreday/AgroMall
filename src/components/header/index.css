@@ -39,6 +39,18 @@
     .header__container{
         flex-direction: column;
         justify-content: center;
+        margin: 0;
+        padding: 20px 30px;
+        background-color: green;
+    }
+    .header__items:hover{
+        border: 3px solid white;
+    }
+
+    .items__containers{
+        display: block;
+        margin: 0rem;
+        padding: 0 !important;
     }
     .header__items{
         display: block;

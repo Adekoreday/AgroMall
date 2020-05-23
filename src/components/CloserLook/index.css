@@ -37,3 +37,22 @@ line-height: 66px;
   bottom: 0;
   z-index: -3;
 }
+
+@media only screen and (max-width: 767px){ 
+  .closerlook__container{
+    display: flex;
+    flex-direction: column;
+    margin: 0rem !important;
+    padding: 1rem !important;
+  }
+
+  .closer__title{
+    font-size: 30px;
+  }
+
+  .items__group{
+    display: flex !important;
+   flex-direction: column;
+   margin: 0 3rem;
+   }   
+}

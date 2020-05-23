@@ -46,3 +46,9 @@ display: flex;
 justify-content: flex-end;
 color: #F8C301;
 }
+
+@media only screen and (max-width: 767px){ 
+    .card{
+        margin: 2rem 0rem;
+    }
+}

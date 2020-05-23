@@ -12,7 +12,7 @@ const Story = () => {
             </div>
             <div className="story__content">
                 <div className="story__details">
-                <img className="story__image" src={Picture} alt="an image of a young man in his 20s."></img>
+                <img className="story__imageone" src={Picture} alt="an image of a young man in his 20s."></img>
                 </div>
             </div>
             <div class="story__text__container">
@@ -20,8 +20,8 @@ const Story = () => {
             Let's reshape the future of agriculture, one crop at a time.
             <div class="button">Join Us</div>
             </div>
-            <div className="story__image">
-                <img src={AccountImg} alt="A boy unlocking a phone image"></img>
+            <div className="story__image__container">
+                <img className="story__image" src={AccountImg} alt="A boy unlocking a phone image"></img>
             </div>
             </div>
             <img className="cover__img__six" src={coverImgSix} alt=""></img>

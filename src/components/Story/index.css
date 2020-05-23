@@ -21,6 +21,12 @@ margin: 10rem 0rem;
 justify-content: center;
 }
 
+.story__image__container{
+    width: 50rem;
+    height: 55rem;
+    object-fit: cover;
+}
+
 .story__content{
 display: flex;
 justify-content: center;
@@ -93,4 +99,48 @@ margin-left: 20rem;
 
 .story__image{
     margin-right: -15rem;
+}
+.story__imageone{
+    transform: rotate(3deg);
+    width: 100%;
+    height: auto;  
+}
+
+@media only screen and (max-width: 767px){ 
+    .story{
+        display: block;
+    }
+    .story__title{
+        font-size: 4rem;
+    }
+   .story__content{ 
+       margin: 2.5rem;
+    }
+    .story__text__container {
+        display: block;
+        margin: 1rem;
+        padding: 0rem;
+    }
+    .story__text {
+        font-family: "Red Hat Display";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2.5rem;
+        margin: 10rem 2rem;
+    }
+
+    .button{
+        margin: 0rem;
+    }
+    .story__image__container{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .story__image{
+        width: 100%;
+        height: auto;
+    }
+
 }

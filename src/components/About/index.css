@@ -123,3 +123,70 @@
     width: 100%;
     height: auto;
 }
+
+@media only screen and (max-width: 767px){ 
+    .read__two{
+        display: none;
+    }
+    .read__more{
+        display: none;
+    }
+    .about__container {
+         margin: 0;
+    }
+    .header__adjust{
+        font-size: 25px !important;
+    }
+    .about__subsection {
+        position: relative;
+        display: block;
+        margin: 1rem;
+    }
+    .about__text{
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .commitment__header {
+        font-size: 30px;
+        min-width: 0px;
+    }
+    .commitment__img__container {
+        width: auto;
+        height: auto;
+        margin: 1rem;
+        object-fit: cover;
+    }
+    .policy__img__container {
+        height: auto;
+        width: auto;
+        margin: 1rem;
+        object-fit: cover;
+    }
+
+    .model__img__container {
+        margin: 1rem;
+        height: auto;
+        width: auto;
+    }
+    .closerlook__container {
+        margin: 1rem 2rem;
+        padding: 0rem;
+    }
+
+    .closer__title {
+        font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 0rem 5rem;
+    line-height: 66px;
+    }
+
+    .items__group {
+        display: flex;
+        flex-direction: column;
+        margin: 0 3rem;
+    }
+
+}

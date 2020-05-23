@@ -68,12 +68,33 @@
     color: white;
 }
 
-   /* background: no-repeat url('../../assets/background.svg');
-    position: absolute;
-    top: 0;
-    left:0;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    overflow: hidden;
-    background-size: 100% 100rem;*/
+@media only screen and (max-width: 767px){ 
+.background__container{
+    display: none;
+}
+.hero__container{
+    margin: 0;
+}
+.herotwo__image {
+    display: none;
+}
+.hero__content{
+    display: block;
+}
+.hero__text{
+ margin: 0;
+}
+.hero__title{
+    font-size: 30px;
+    font-family: "Red Hat Display";
+    color: green;
+    margin: 20px;
+}
+.hero__subtitle{
+    font-family: "Roboto";
+    font-size: 1.5rem;
+    color: green;
+    font-weight: 300;
+    margin: 2rem 5rem;
+}
+}
