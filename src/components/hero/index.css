@@ -1,0 +1,79 @@
+.hero__container{
+  margin: 15rem 2rem 0rem 35rem;
+}
+
+.bg__image{
+    width: 100%;
+    height: auto;
+}
+
+.background__container{
+    position: absolute;
+    top: 0;
+    left:0;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    z-index: -1;
+    font-family: 'Red Hat Display Roboto sans serif';
+    color: white;
+
+}
+.hero__image{
+    margin: 0rem 1rem;
+    width: 75rem;
+    height: 45rem;
+    object-fit: cover;
+}
+
+.herotwo__image{
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero__text{
+    margin-top: 10rem;
+}
+
+.hero__image--content{
+    width: 100%;
+    height: auto;
+}
+
+.herotwo__image--content{
+    width: 100%;
+    height: auto;
+}
+
+.herotwo__image{
+    margin-top: 10rem;
+}
+
+.hero__content{
+    display: flex;
+    justify-content: flex-start;
+}
+.hero__subtitle{
+    font-family: 'Roboto';
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 300;
+    margin: 2rem 5rem;
+}
+
+.hero__title{
+    font-size: 6rem;
+    font-family: 'Red Hat Display';
+    color: white;
+}
+
+   /* background: no-repeat url('../../assets/background.svg');
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    overflow: hidden;
+    background-size: 100% 100rem;*/

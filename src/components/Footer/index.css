@@ -1,0 +1,51 @@
+.footer__content{
+    margin: 15rem 35rem 0rem 25rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-column-gap: 10rem;
+    color: #008737;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.footer{
+    background-color: #F4F5F6;
+}
+
+.footer__list{
+    margin: 10rem 0rem 5rem 0rem;
+    list-style: none;
+}
+
+.list__title{
+    margin: 2rem 0rem;
+}
+
+.footer__list__items{
+margin: 2rem 0rem;
+}
+
+.footer__logo{
+    margin: 2rem 0rem 9rem 0rem;
+}
+
+.social__media__container{
+    list-style-type: none;
+    padding: 0 !important;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.social__icon{
+ margin-right: 5rem;
+}
+
+.social{
+    margin-top: 12rem;
+    margin-left: 20rem;
+}
+
+.copyright{
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}

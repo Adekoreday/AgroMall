@@ -1,0 +1,115 @@
+.about__subsection{
+    display: flex;
+    margin:5rem 10rem;
+}
+
+.commitment__header{
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 66px;
+}
+
+.commitment{
+    font-size: 2rem;
+    font-family: 'Roboto';
+    font-weight: 300;
+    line-height: 4rem;
+    max-width: 80;
+
+}
+
+.policies__container{
+    margin-bottom: 15rem;
+}
+
+.about__text{
+    margin-top: 15rem;
+    position: relative;
+}
+.about__container{
+    margin: 0rem 10rem;
+}
+
+.commitment__img__container{
+    width: 200rem;
+    height: 70rem;
+    object-fit: cover;
+}
+
+.commitment__img{
+    width: 100%;
+    height: auto;
+}
+
+.policy__img{
+    width: 100%;
+    height: auto;
+}
+
+.cover__img__one{
+    position: absolute;
+    top: 150%;
+    right: 0%;
+    width: 25%;
+    height: auto;
+    z-index: -2;
+}
+
+.cover__img__two{
+    position: absolute;
+    top: 220%;
+    left: 0%;
+    width: 25%;
+    height: auto;
+    z-index: -2;
+}
+
+.policy__img__container{
+    margin-top: 10rem;
+    margin-left: 2rem;
+    height: 60rem;
+    width: 220rem;
+    object-fit: cover;
+}
+
+.cover__img__three{
+    position: absolute;
+    width: 30%;
+    height: auto;
+    top: 300%;
+    right: 0%;
+    height: auto;
+    z-index: -2;
+    
+}
+
+.read__more{
+    color: #008737;
+    position: absolute;
+    font-size: 2rem;
+    top: 80%;
+    left: 85%;
+    cursor: pointer;
+}
+
+.read__more__two{
+    color: #008737;
+    position: absolute;
+    font-size: 2rem;
+    top: 80%;
+    left: 83%;
+    cursor: pointer;
+
+}
+.model__img__container{
+    width: 200rem;
+    height: 75rem;
+    object-fit: cover;
+    margin-right: -15rem;
+}
+.model__img{
+    width: 100%;
+    height: auto;
+}

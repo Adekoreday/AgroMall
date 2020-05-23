@@ -1,0 +1,95 @@
+.story__title{
+    font-size: 7.0rem;
+    color: #008737;
+    border-width: 3px;
+    border-style: solid;
+    text-align: center;
+    max-width: 25%;
+        font-family: 'Noto Serif';
+    font-weight: 500;
+    border-image: 
+      linear-gradient(
+        to right, 
+        green,
+        green 50%,
+        yellow
+      ) 0% 0% 100% 0%;
+}
+
+.story{
+display: flex;
+margin: 10rem 0rem;
+justify-content: center;
+}
+
+.story__content{
+display: flex;
+justify-content: center;
+margin: 10rem 10rem 25rem 10rem;
+}
+
+.story__details{
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+    height: 60rem;
+    width: 100rem;
+    padding: 2rem;
+    transform: rotate(-3deg);
+    object-fit: cover;
+}
+
+.story__image{
+    transform: rotate(3deg);
+    width: 100%;
+    height: auto;
+}
+
+.cover__img__six{
+    position: absolute;
+    top: 15%;
+    right: 0%;
+    width: 18%;
+    z-index: -3;
+}
+
+.cover__img__seven{
+    position: absolute;
+    top: 60%;
+    left: 0%;
+    width: 18%;
+    z-index: -3;
+}
+
+.story__container{
+    position: relative;
+}
+.story__text__container{
+    display: flex;
+    justify-content: center;
+    margin: 0rem 35rem;
+    padding-left: 2rem;
+}
+
+.story__text{
+margin-top: 15rem;
+font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 500;
+font-size: 6rem;
+line-height: 66px;
+}
+
+.button{
+    font-family: 'Asap';
+    font-size: 20px;
+line-height: 20px;
+color: #008737;
+border: 1px solid #008737;
+width: 25rem;
+height: 5.67rem;
+text-align: center;
+margin-top: 5rem;
+padding: 2rem 1rem;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+margin-left: 20rem;
+}
