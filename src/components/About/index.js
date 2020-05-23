@@ -24,7 +24,7 @@ const About = () => {
                 </div>
             </div>
             <div  className='about__subsection policies__container'>
-                <div className='about__text'>
+                <div className='policy__text'>
                     <h1 className="commitment__header">Our <br></br>Policies and Resolution</h1>
                    <div className='commitment'>AgroCola provides Nigeria’s young farmers and agriculture value chain participants with an opportunity to create market influence, improve productivity, improve returns, and rightly position to
                     compete in a national and international marketplace. </div> 
@@ -37,10 +37,10 @@ const About = () => {
             </div>
             <div  className='about__subsection'>
                 <div className='about__text'>
-                    <h1 className="commitment__header">Our Sustainable Agriculture <br/> Philosophy</h1>
+                    <h1 className="header__adjust commitment__header">Our Sustainable Agriculture <br/> Philosophy</h1>
                    <div className='commitment'>Our sustainable agriculture approach is anchored on the use of best available knowledge, technologies, and practices to ensure that intensification delivers more with minimal environmental impacts. </div> 
 
-                    <div className='read__more__two'>Read More</div>
+                    <div className='read__two'>Read More</div>
                 </div>
                 <div className='model__img__container'>
                     <img className='model__img' src={AgricModelImg}></img>

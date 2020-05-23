@@ -20,7 +20,7 @@ const Story = () => {
             Let's reshape the future of agriculture, one crop at a time.
             <div class="button">Join Us</div>
             </div>
-            <div>
+            <div className="story__image">
                 <img src={AccountImg} alt="A boy unlocking a phone image"></img>
             </div>
             </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from '../Card'
+import Card from '../Card/index'
 import Cola from '../../assets/cola.svg';
 import research from '../../assets/research.svg';
 import newDeal from '../../assets/newdeal.svg';

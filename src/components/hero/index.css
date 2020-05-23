@@ -1,5 +1,5 @@
 .hero__container{
-  margin: 15rem 2rem 0rem 35rem;
+  margin: 15rem 2rem 0rem 15rem;
 }
 
 .bg__image{
@@ -22,18 +22,18 @@
 }
 .hero__image{
     margin: 0rem 1rem;
-    width: 75rem;
     height: 45rem;
     object-fit: cover;
 }
 
 .herotwo__image{
     width: 100%;
+    margin-top: -10rem;
     object-fit: cover;
 }
 
 .hero__text{
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 .hero__image--content{
@@ -47,7 +47,7 @@
 }
 
 .herotwo__image{
-    margin-top: 10rem;
+    margin-top: -10rem;
 }
 
 .hero__content{
@@ -63,7 +63,7 @@
 }
 
 .hero__title{
-    font-size: 6rem;
+    font-size: 60px;
     font-family: 'Red Hat Display';
     color: white;
 }

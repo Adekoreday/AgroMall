@@ -1,5 +1,5 @@
 .footer__content{
-    margin: 15rem 35rem 0rem 25rem;
+    margin: 15rem 10rem 0 10rem;
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
     grid-column-gap: 10rem;
