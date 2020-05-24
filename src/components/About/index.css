@@ -190,3 +190,23 @@
     }
 
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){ 
+    .read__two{
+        display: none;
+    }
+    .read__more{
+        display: none;
+    }
+    .commitment__img__container{
+        display: none !important;
+    }
+
+    .policy__img__container{
+        display: none !important;
+    }
+
+    .model__img__container{
+        display: none !important;
+    }
+}
