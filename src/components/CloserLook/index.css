@@ -53,6 +53,19 @@ line-height: 66px;
   .items__group{
     display: flex !important;
    flex-direction: column;
-   margin: 0 3rem;
+   margin: 0 1.7rem !important;
    }   
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){ 
+.items__group {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.coverimage__five{
+  display: none;
+}
+.coverimage__four{
+  display: none;
+}
 }

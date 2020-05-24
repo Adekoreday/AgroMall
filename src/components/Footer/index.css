@@ -54,9 +54,16 @@ margin: 2rem 0rem;
     .footer__content{
         display: flex;
         flex-direction: column;
-        margin: 15rem 5rem;
+        margin: 10rem 4rem 0rem 4rem;
     }
     .social{
         margin-left: 0rem;
     }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .footer__content{
+        grid-column-gap: 1rem;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+ }

@@ -98,3 +98,17 @@
     margin: 2rem 5rem;
 }
 }
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px){ 
+.hero__container {
+    margin: 5rem 2rem 0 5rem;
+}
+.hero__title {
+    font-size: 30px;
+}
+.read__more {
+    top: 60%;
+    left: 70%
+}
+}
