@@ -1,6 +1,7 @@
 .about__subsection{
+    position: relative;
     display: flex;
-    margin:5rem 10rem;
+    margin: 5rem 1rem;
 }
 
 .commitment__header{
@@ -8,24 +9,33 @@
     font-style: normal;
     font-weight: 500;
     font-size: 50px;
+    min-width: 500px;
     line-height: 66px;
+}
+
+.header__adjust{
+    font-size: 40px !important;
 }
 
 .commitment{
     font-size: 2rem;
     font-family: 'Roboto';
     font-weight: 300;
-    line-height: 4rem;
+    line-height: 3rem;
     max-width: 80;
 
 }
 
 .policies__container{
-    margin-bottom: 15rem;
+    margin-bottom: 2rem;
 }
 
 .about__text{
     margin-top: 15rem;
+    position: relative;
+}
+
+.policy__text{
     position: relative;
 }
 .about__container{
@@ -33,7 +43,7 @@
 }
 
 .commitment__img__container{
-    width: 200rem;
+    width: 270rem;
     height: 70rem;
     object-fit: cover;
 }
@@ -50,7 +60,7 @@
 
 .cover__img__one{
     position: absolute;
-    top: 150%;
+    top: 180%;
     right: 0%;
     width: 25%;
     height: auto;
@@ -59,7 +69,7 @@
 
 .cover__img__two{
     position: absolute;
-    top: 220%;
+    top: 270%;
     left: 0%;
     width: 25%;
     height: auto;
@@ -70,15 +80,15 @@
     margin-top: 10rem;
     margin-left: 2rem;
     height: 60rem;
-    width: 220rem;
+    width: 200rem;
     object-fit: cover;
 }
 
 .cover__img__three{
     position: absolute;
-    width: 30%;
+    width: 35%;
     height: auto;
-    top: 300%;
+    top: 360%;
     right: 0%;
     height: auto;
     z-index: -2;
@@ -89,17 +99,17 @@
     color: #008737;
     position: absolute;
     font-size: 2rem;
-    top: 80%;
-    left: 85%;
+    top: 50%;
+    left: 70%;
     cursor: pointer;
 }
 
-.read__more__two{
+.read__two{
     color: #008737;
     position: absolute;
     font-size: 2rem;
-    top: 80%;
-    left: 83%;
+    top: 55%;
+    left: 79%;
     cursor: pointer;
 
 }
@@ -107,9 +117,96 @@
     width: 200rem;
     height: 75rem;
     object-fit: cover;
-    margin-right: -15rem;
+    margin-right: 2rem;
 }
 .model__img{
     width: 100%;
     height: auto;
+}
+
+@media only screen and (max-width: 767px){ 
+    .read__two{
+        display: none;
+    }
+    .read__more{
+        display: none;
+    }
+    .about__container {
+         margin: 0;
+    }
+    .header__adjust{
+        font-size: 25px !important;
+    }
+    .about__subsection {
+        position: relative;
+        display: block;
+        margin: 1rem;
+    }
+    .about__text{
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .commitment__header {
+        font-size: 30px;
+        min-width: 0px;
+    }
+    .commitment__img__container {
+        width: auto;
+        height: auto;
+        margin: 1rem;
+        object-fit: cover;
+    }
+    .policy__img__container {
+        height: auto;
+        width: auto;
+        margin: 1rem;
+        object-fit: cover;
+    }
+
+    .model__img__container {
+        margin: 1rem;
+        height: auto;
+        width: auto;
+    }
+    .closerlook__container {
+        margin: 1rem 2rem;
+        padding: 0rem;
+    }
+
+    .closer__title {
+        font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 0rem 5rem;
+    line-height: 66px;
+    }
+
+    .items__group {
+        display: flex;
+        flex-direction: column;
+        margin: 0 3rem;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){ 
+    .read__two{
+        display: none;
+    }
+    .read__more{
+        display: none;
+    }
+    .commitment__img__container{
+        display: none !important;
+    }
+
+    .policy__img__container{
+        display: none !important;
+    }
+
+    .model__img__container{
+        display: none !important;
+    }
 }

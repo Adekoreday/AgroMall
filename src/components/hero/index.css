@@ -1,5 +1,5 @@
 .hero__container{
-  margin: 15rem 2rem 0rem 35rem;
+  margin: 15rem 2rem 0rem 15rem;
 }
 
 .bg__image{
@@ -22,18 +22,18 @@
 }
 .hero__image{
     margin: 0rem 1rem;
-    width: 75rem;
     height: 45rem;
     object-fit: cover;
 }
 
 .herotwo__image{
     width: 100%;
+    margin-top: -10rem;
     object-fit: cover;
 }
 
 .hero__text{
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 .hero__image--content{
@@ -47,7 +47,7 @@
 }
 
 .herotwo__image{
-    margin-top: 10rem;
+    margin-top: -10rem;
 }
 
 .hero__content{
@@ -63,17 +63,61 @@
 }
 
 .hero__title{
-    font-size: 6rem;
+    font-size: 60px;
     font-family: 'Red Hat Display';
     color: white;
 }
 
-   /* background: no-repeat url('../../assets/background.svg');
-    position: absolute;
-    top: 0;
-    left:0;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    overflow: hidden;
-    background-size: 100% 100rem;*/
+@media only screen and (max-width: 767px){ 
+.background__container{
+    display: none;
+}
+.hero__container{
+    margin: 0;
+}
+.herotwo__image {
+    display: none;
+}
+.hero__content{
+    display: block;
+}
+.hero__text{
+ margin: 0;
+}
+.hero__title{
+    font-size: 30px;
+    font-family: "Red Hat Display";
+    color: green;
+    margin: 20px;
+}
+.hero__subtitle{
+    font-family: "Roboto";
+    font-size: 1.5rem;
+    color: green;
+    font-weight: 300;
+    margin: 2rem 5rem;
+}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){ 
+ .background__container{
+        display: none;
+    }
+.hero__container {
+    margin: 5rem 2rem 0 5rem;
+}
+.hero__title {
+    font-size: 30px;
+}
+.read__more {
+    top: 60%;
+    left: 70%
+}
+.hero__title {
+    color: green;
+}
+.hero__subtitle{
+    color: green;
+}
+}
